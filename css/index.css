@@ -9,18 +9,6 @@ body{
     padding:20px;
 }
 
-.div-header{
-    background-color:#000;
-    color:#fff;
-    padding:10px;
-}
-
-.div-header-p{
-    text-align:center;
-    padding:10px;
-    border-bottom:1px solid #fff;
-}
-
 .div-header-h1{
     font-size:20px;
     text-align:center;
@@ -34,16 +22,19 @@ body{
 }
 
 .div-section-ul{
-    border-left:1px solid #000;
+    border-left:2px solid #000;
     height:fit-content;
 }
 
 .div-section-ul-li{
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 
 .div-section-h3{
     font-size:16px;
+    display:inline-block;
+    padding-bottom:10px;
+    border-bottom:2px solid #000;
 }
 
 .div-section-div{
@@ -55,14 +46,11 @@ body{
 .div-section-div-ul{
     max-width:400px;
     width:100%;
-    border-left:1px solid #000;
+    border-left:2px solid #000;
     height:fit-content;
 }
 
 .div-section-div-ul-li{
+    margin-bottom:10px;
     margin-right:30px;
-}
-
-.div-section-div-ul-li{
-    margin-bottom:5px;
 }
